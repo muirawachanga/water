@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include water_management *.css
+recursive-include water_management *.csv
+recursive-include water_management *.html
+recursive-include water_management *.ico
+recursive-include water_management *.js
+recursive-include water_management *.json
+recursive-include water_management *.md
+recursive-include water_management *.png
+recursive-include water_management *.py
+recursive-include water_management *.svg
+recursive-include water_management *.txt
+recursive-exclude water_management *.pyc
